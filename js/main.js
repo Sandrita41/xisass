@@ -14,3 +14,14 @@ function menuScroll() {
     }
     return;
 }
+
+// ---- Sticky Header funcion ---- //
+function headerBackgroundoTvarkymas() {
+    var header_riba = 50;
+    if (header_riba < scrollY) {
+        $('header').removeClass('juodas');
+    } else {
+        $('header').addClass('juodas');
+    }
+    return;
+}
