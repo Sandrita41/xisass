@@ -2,7 +2,6 @@ body,
 body * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
@@ -99,3 +98,9 @@ header {
 .pricing-container {}
 
 .pricing-blocks {}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
