@@ -7,8 +7,8 @@ body * {
 
 body {
     display: flex;
+    flex-direction: column;
     width: 100%;
-    background-color: burlywood;
     font-family: "Rubik", sans-serif;
 }
 
@@ -16,7 +16,6 @@ header {
     display: flex;
     flex-direction: row;
     width: 100%;
-    position: fixed;
     justify-content: center;
     background-color: #f2f6f9;
 }
@@ -62,4 +61,12 @@ header {
     cursor: pointer;
 }
 
-.banner {}
+.banner {
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/banner_home4.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
