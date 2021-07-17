@@ -1,19 +1,40 @@
     body {
         display: flex;
         width: 100%;
-        justify-content: center;
         background-color: burlywood;
     }
     
-    .header {}
+    header {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        position: fixed;
+        justify-content: center;
+        background-color: #f2f6f9;
+    }
     
     .header-container {
         display: flex;
         flex-direction: row;
+        height: 50px;
+        max-height: 50px;
+        min-height: 50px;
     }
     
-    .logo {}
+    .logo {
+        font-size: 20px;
+    }
     
     .main-nav {}
+    
+    .main-nav>a {
+        padding: 5px 15px;
+        font-size: 14px;
+        line-height: 20px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #4f4f4f;
+    }
     
     .downloadBtn {}
