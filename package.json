@@ -1,0 +1,24 @@
+{
+    "name": "xisass",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "live-server --port=3000",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Sandrita41/xisass.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Sandrita41/xisass/issues"
+    },
+    "homepage": "https://github.com/Sandrita41/xisass#readme",
+    "devDependencies": {
+        "live-server": "^1.2.1"
+    }
+}
