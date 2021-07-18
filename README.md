@@ -33,4 +33,3 @@ Agnietė: [Github](https://github.com/AgnieteMarazaite)
 Gytis: [Github](https://github.com/GytisKupinas)
 Jaroslav: [Github] (https://github.com/jaroslavstanull)
 Mindaugas: [Github] (https://github.com/Mindaugas50)
-
