@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Xiasiss</title>
-    <link rel="stylesheet" href="./css/main.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./css/home.css">
 </head>
 
 <body>
+    <!--HEADER START-->
     <header class="header" id="myHeader">
         <div class="header-container">
             <div class="logo"><img src="/images/logos/logo-3.png" alt="Black logo"></div>
@@ -23,26 +24,29 @@
             </nav>
             <button class="button">Download</button>
     </header>
-    <div class="banner">
-        <div>
-            <h2>We are fastest grow startup agency</h2>
-            <p>Our objective is to build a solution that rely on nobody. You will own your bookmark and your interface.</p>
-            <button>Contact Us</button>
-        </div>
-        <div class="image"><img src="/images/slider2.png" alt="slider2"></div>
+    <!--HEADER END-->
+    <!--BANNER START-->
+    <div class="banner" id="home">
+        <h2>We are fastest grow startup agency</h2>
+        <p>Our objective is to build a solution that rely on nobody. You will own your bookmark and your interface.</p>
+        <button>Contact Us</button>
     </div>
+    <div class="image"><img src="/images/slider2.png" alt="slider2"></div>
+    </div>
+    <!--BANNER END-->
+    <!--LOGOS START-->
     <div class="logos-block">
         <h2>We are featured in</h2>
-        <div class="client-logos"><img src="/images/logos/client-01.png" alt="Client1"></div>
-        <div><img src="/images/logos/client-02.png" alt="Client2"></div>
-        <div>
-            <img src="images/logos/client-03.png" alt="Client3">
-        </div>
-        <div><img src="images/logos/client-04.png" alt="Client4">
-        </div>
-        <div><img src="images/logos/client-05.png" alt="Client5">
+        <div class="client-logos">
+            <div><img src="/images/logos/client-01.png" alt="Client1"></div>
+            <div><img src="/images/logos/client-02.png" alt="Client2"></div>
+            <div><img src="images/logos/client-03.png" alt="Client3"></div>
+            <div><img src="images/logos/client-04.png" alt="Client4"></div>
+            <div><img src="images/logos/client-05.png" alt="Client5"></div>
         </div>
     </div>
+    <!--LOGOS END-->
+    <!--ICONS START-->
     <div class="icons" id="overview">
         <div><img src="/images/icons/icon-11.png" alt="icon-11">
             <h3>Anaalysis</h3>
@@ -61,8 +65,14 @@
             <p>Inspiration comes in many ways and you like to save everything from.</p>
         </div>
     </div>
-    <div>Video</div>
-    <div>
+    <!--ICONS END-->
+    <!--VIDEO START-->
+    <div class="video">
+        <img src="/images/page-two-video-bg.jpg" alt="page-two-video-bg">
+    </div>
+    <!--VIDEO END-->
+    <!--WHYCHOOSE START-->
+    <div id="whyChoose">
         <div><img src="/images/client-serice.png" alt="client-serice"></div>
         <div>
             <h2>We focus on data that grow your business</h2>
@@ -70,6 +80,8 @@
             <button>Get Started</button>
         </div>
     </div>
+    <!--WHYCHOOSE END-->
+    <!--CREATE START-->
     <div>
         <div>
             <h2>Create board for hangout with multiple clients</h2>
@@ -78,7 +90,9 @@
         </div>
         <div><img src="/images/client-serice1.png" alt="client-serice1"></div>
     </div>
-    <div>
+    <!--CREATE END-->
+    <!--PRICING START-->
+    <div id="pricing">
         <img src="images/price-bg-fore.png" alt="price-bg-fore">
         <div class="pricing-container">
             <div class="pricing-blocks">
@@ -140,15 +154,18 @@
             <h2>Frequently asked <br>questions</h2>
             <div>Collapsible block</div>
         </div>
-        <div>
+        <div id="contact">
             <h2>Need Contact? Fill The Form</h2>
             <button>Submit Message</button>
         </div>
         <div>
             <h2>Be Notified</h2>
             <p>Enter you email address to be notified of the launch</p>
-        </div> -->
+        </div>
     </div>
+    <!--PRICING END-->
+</body>
+<script src="./js/home.js" type="module" defer></script>
 </body>
 
 </html>
