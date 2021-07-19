@@ -1,0 +1,12 @@
+.button {
+    line-height: 15px;
+    padding: 10px 40px;
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    color: burlywood;
+    border-radius: 20px;
+    background: transparent;
+    border: 1px solid white;
+    cursor: pointer;
+}
